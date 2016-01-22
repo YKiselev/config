@@ -3,3 +3,6 @@
 jdbc:
   user: dbuser1
   password: dbpassword1
+
+secured:
+  password: '{cipher}AQA/gVeUYyZCZ8Waf0bXRAnYakJTPsq3XvsGo5gu9SzzwZVjcyGRgoT/a6rXE+C1iQCqCa0dDtfFW8eBRBb/JoSgVCbZsS4w8HYp2VmHbUKrH8nDoif7T2WmfP8+fNd5O/r6j5ej+wh7rR6A4Y1fozN4sf5VFtc18vxOhJwuEtF5SENYRONbN1II6ap+4iZCGjHFHN7NJO1RVernFBTopkZI0aFOquBY8oZT8yUuECv1swwnHm8Hb5c8s0nKF6WBtzJKakTET6TYM/WfK745hCT1V929CXip+K2nKCMcZIHdgHDSo4MnBnF5NYN616Pe0+fijA7hG6yEcLU1kM2BBnPngbKh9xtZ82bPQe+rbQs3b1AWoiItfAPHvCXg9XZW0RM='
