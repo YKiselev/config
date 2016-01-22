@@ -1,0 +1,5 @@
+# common configuration
+
+jdbc:
+  user: dbuser1
+  password: dbpassword1
