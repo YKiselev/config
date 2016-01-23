@@ -14,7 +14,7 @@ eureka:
     fetchRegistry: true
     healthcheck:
       enabled: true
-    serviceUrl:
+    #serviceUrl:
       #defaultZone:
 
 jdbc:
