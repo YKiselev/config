@@ -7,7 +7,7 @@ eureka:
     #secureVirtualHostName: localhost
     nonSecurePortEnabled: false
     securePortEnabled: true
-    securePort: ${local.server.port}
+    securePort: ${server.port}
     #preferIpAddress: true
   client:
     registerWithEureka: true
@@ -15,7 +15,7 @@ eureka:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone: https://localhost:8761/eureka/
+      #defaultZone:
 
 jdbc:
   user: dbuser1
