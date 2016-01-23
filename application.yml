@@ -3,10 +3,10 @@
 eureka:
   instance:
     hostname: localhost
-    virtualHostName: localhost
-    secureVirtualHostName: localhost
-    #nonSecurePortEnabled: false
-    #securePortEnabled: true
+    #virtualHostName: localhost
+    #secureVirtualHostName: localhost
+    nonSecurePortEnabled: false
+    securePortEnabled: true
     #preferIpAddress: true
   client:
     registerWithEureka: true
