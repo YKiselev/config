@@ -17,6 +17,13 @@ eureka:
     #serviceUrl:
       #defaultZone:
 
+security:
+  basic:
+    enabled: true
+  require-ssl: true
+  user:
+    name: service
+
 jdbc:
   user: dbuser1
   password: dbpassword1
