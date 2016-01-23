@@ -1,9 +1,5 @@
 
 eureka:
-  instance:
-    metadataMap:
-      hostname: localhost
-      securePort: ${server.port}
   client:
     registerWithEureka: false
     fetchRegistry: false
