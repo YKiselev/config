@@ -7,6 +7,7 @@ eureka:
     #secureVirtualHostName: localhost
     nonSecurePortEnabled: false
     securePortEnabled: true
+    securePort: ${server.port}
     #preferIpAddress: true
   client:
     registerWithEureka: true
