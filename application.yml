@@ -23,6 +23,8 @@ security:
   require-ssl: true
   user:
     name: service
+    password: '{cipher}AQAXcOkOg4sV+QpCEB0Jbm1W5s2q3j+TnJQFRQsfDp8vO6YM1fZZpMfldC0Ex+/pW/Ugxs+YVuYRPpfO6NIkK7uCkdUHE2/tkAAmjKWyFIX2HBnFGqIxLKtkQSm3cfwE9uNe7hz+grZBgnVoGDHeIreGBFvqAf+pEqAjlNaGCA579MUZjCqWzjiWZ/sXPDX15uegh1iAHwIo9WcWQeiwUYZidJQMAs5Np/nczTPT549USit4lkwBT5p7cgUQZZwD5J2dR3qvAxF2NB0bJMWF0qA4Wfuk0v9Qmct71pCaxJL80ZG9tS67Ln1LRW3Ku/9gEs4BHq1JP7Jyb/Awlbs4yM+zkeUe9GAAU6VCoLyAkVMqZ1FODBwY4FfA8hdpp96o6s8='
+
 
 jdbc:
   user: dbuser1
