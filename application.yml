@@ -4,7 +4,7 @@ eureka:
   instance:
     hostname: localhost
     #virtualHostName: localhost
-    secureVirtualHostName=${spring.application.name}
+    secureVirtualHostName: ${spring.application.name}
     nonSecurePortEnabled: false
     securePortEnabled: true
     securePort: ${server.port}
